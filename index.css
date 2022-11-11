@@ -1,0 +1,177 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#fd {}
+
+#header {
+  height: 46px;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#nav {
+  display: inline-block;
+}
+
+#nav>li>a {
+  color: white;
+  text-transform: uppercase;
+}
+
+#nav li a {
+  color: white;
+  text-decoration: none;
+  line-height: 46px;
+  padding: 0 24px;
+
+}
+
+#nav li {
+  display: inline-block;
+  position: relative;
+}
+
+#nav .subnav {
+  display: none;
+  color: white;
+  position: absolute;
+  background-color: #fff;
+}
+
+#nav>li:hover>a {
+  background-color: #ccc;
+}
+
+#nav li:hover a {
+  color: black;
+  padding: 15px 24px;
+}
+
+.subnav li:hover {
+  background-color: red;
+}
+
+#nav .subnav li {
+  display: block;
+}
+
+#nav li:hover .subnav {
+  display: block;
+}
+
+#nav .ti-angle-down {
+  font-size: 14px;
+}
+
+#header .search {
+  color: white;
+  float: right;
+  font-size: 16px;
+}
+
+#header .search {
+  line-height: 46px;
+  padding: 0 16px;
+}
+
+#header .search:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+#slider {
+  padding-top: 50%;
+  background-image: url(/image/BBC\ Radio\ 1\ Live\ Lounge_\ The\ Kooks\ -\ Crazy\ \(Gnarls\ Barkley\ Cover\).jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: cover;
+  /* position: relative  ; */
+  color: whitesmoke;
+}
+
+#slider .text-content {
+  position: absolute;
+  left: 40%;
+  bottom: 20px;
+}
+
+#slider .text {
+  text-align: center;
+  font-size: 30px;
+  transform: translateY(-40px);
+}
+
+#slider .place {
+  font-size: 20px;
+  position: relative;
+  bottom: 24px;
+  transform: translateX(37%);
+}
+
+/* END SLIDER */
+
+
+#content {
+  margin: 0 140px;
+}
+
+#content .title {
+  text-align: center;
+  margin-top: 44px;
+  margin-bottom: 15px;
+  font-size: 31px;
+  letter-spacing: 5px;
+}
+
+#content .sub-title {
+  text-align: center;
+  margin-bottom: 21px;
+  opacity: 0.7;
+  font-style: italic;
+}
+
+#content .sub-content {
+  text-align: justify;
+  line-height: 1.5;
+}
+
+#content2 {
+  text-align: center;
+  height: 200px;
+  transform: translateY(30px);
+  background-color: #2D2D30;
+}
+
+#content2 .title {
+  transform: translateY(30px);
+}
+
+#content2 .sub-title {
+  transform: translateY(60px);
+}
+
+#content2 .title-non {
+  transform: translateY(70px);
+}
+
+#content3 {
+  text-align: center;
+
+  transform: translateY(200px);
+}
+
+
+
+
+
+#footer {}
